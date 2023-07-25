@@ -1,0 +1,65 @@
+.text-head{
+    padding-left: 35%;
+}
+
+h1{
+   
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    position: relative;
+    isolation: isolate;
+    color: #352e28;
+    width: 350px;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 30px;; 
+    opacity: 1;
+    width: 280px;
+    height: 25px;
+    background-color: #fec260;
+    margin: auto;
+    z-index: -1;
+    transition: height 0.5s ease-in-out;
+}
+h1:hover::after {
+    height: 40px;
+    
+}
+.interface{
+    background-color: #f7ecde;
+    height: 100%;
+}
+.btn2{
+    background-color: #d1512d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: "Pacifico", cursive;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn2:hover {
+    background-color: #bb4120;
+    border-color: #bb4120;
+}
+.btnvisit{
+   background-color: #9eb23b;
+    border: none;
+}
+.btnvisit:hover{
+    background-color: #7f8c2f;
+    border-color: #7f8c2f;
+}
+
+
+
+
+
+

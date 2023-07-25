@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class=" interface w-100 ">
+        <div class="container">
+            <div class="text text-center">
+                <div class="text-head">
+    <h1 class="text-center p-5">Bookmarker</h1>
+</div>
+    .....................................................................................................................................................................................................................................................................................................................................................................................................
+            <h3 class="text-center p-5">
+                
+                <i class="fa-solid fa-bookmark" style="color: #3fa55b;"></i>
+                 Bookmark your favorite sites
+                 <i class="fa-solid fa-bookmark" style="color: #b2ac07;"></i>
+        </h3>
+     </div>
+     <div class="bookmark">
+        <div class="form-group mb-2">
+        <label for=""><i class="fa-solid fa-book-bookmark" style="color: #000000;"></i> Sit name</label>
+        <input type="text" id="bookmarkname" oninput="validbookmarkname()" class="form-control" placeholder="bookmarkname" >
+        </div>
+        <div class="form-group mb-2">
+        <label for=""><i class="fa-solid fa-link" style="color: #000000;"></i> Sit url</label>
+        <input type="text" id="bookmarkurl" oninput="validbookmarurl()" class="form-control" placeholder="website url" >
+    </div>
+    <div class=" btn1 text-center">
+    <button class="btn btn2 btn-success px-5 " onclick="addbookmark()">submet</button>
+    </div>
+     </div>
+         .....................................................................................................................................................................................................................................................................................................................................................................................................   
+
+        </div>
+<div class="container pb-5">
+    <div class="w-100 mx-auto mt-5 ">
+        <table class="table text-center"> 
+        <thead>
+            <th>index</th>
+            <th>websitename</th>
+            <th>visit</th>
+            <th>delete</th>
+            
+        </thead>
+        <tbody id="tbody">
+            <!-- <tr>
+                <td>   
+                    1
+                </td>
+                <td>   
+                    facebook
+                </td>
+                <td>   
+                    <button class="btn btnvisit btn-warning"> <i class="fa-solid fa-eye" style="color: #ffffff;"></i> visit</button>
+                </td>
+                <td>   
+                    <button class="btn btn-danger"><i class="fa-regular fa-trash-can" style="color: #ffffff;"></i>  delete</button>
+                </td>
+            </tr> -->
+        </tbody>
+        </table>
+
+        
+    </div>
+</div>
+</div>
+   
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
